@@ -10,8 +10,8 @@ message = client.messages \
     .create(
          body='''Hello Satya Sir!
                         This is Sample message for API Testing''',
-         from_ =  +13342342930,
-         to = +917992160083
+         from_ =  From_NUMBER,
+         to = To_Number
      )
 
 print(message.sid)
